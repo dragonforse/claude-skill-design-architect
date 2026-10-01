@@ -1,0 +1,8 @@
+# Normaliza finales de linea: el repo guarda LF siempre.
+* text=auto eol=lf
+
+# Los scripts de PowerShell son especificos de Windows.
+*.ps1 text eol=crlf
+
+# El script de shell DEBE ser LF o no se ejecuta en Unix.
+*.sh text eol=lf
